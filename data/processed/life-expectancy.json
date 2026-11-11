@@ -62,7 +62,7 @@
         "matching": "Exact canonical country IDs; no aliases required",
         "missing": "No source row or no observations: value/year/rank null, missing true",
         "caveats": [
-            "Source observations preserved; user-provided supplements and approved range midpoints are separately identified. Unknown supplement years remain null.",
+            "Source values preserved except documented user-approved corrections and supplements; unknown years remain null.",
             "Validation checks the supplied export, not independent verification against the live publisher."
         ]
     },
@@ -1643,6 +1643,5 @@
             "points": 100,
             "missing": false
         }
-    ],
-    "qualityIssues": []
+    ]
 }

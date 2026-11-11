@@ -4,8 +4,6 @@
         "organization": "Not recorded; CSV notes reference Olympedia",
         "dataset": "Supplied medal_table_summary.csv",
         "url": null,
-        "version": null,
-        "retrievalDate": null,
         "files": [
             {
                 "path": "data/source/olympic_medals/medal_table_summary.csv",
@@ -93,56 +91,6 @@
             "YEM"
         ],
         "year": "Coverage endpoint, not the year of the last medal",
-        "aliases": {
-            "ALG": "DZA",
-            "BAH": "BHS",
-            "BAR": "BRB",
-            "BOT": "BWA",
-            "BRN": "BHR",
-            "BUL": "BGR",
-            "BUR": "BFA",
-            "CHI": "CHL",
-            "CRC": "CRI",
-            "CRO": "HRV",
-            "DEN": "DNK",
-            "FIJ": "FJI",
-            "GER": "DEU",
-            "GRE": "GRC",
-            "GRN": "GRD",
-            "GUA": "GTM",
-            "HAI": "HTI",
-            "INA": "IDN",
-            "IRI": "IRN",
-            "KOS": "XKX",
-            "KSA": "SAU",
-            "KUW": "KWT",
-            "LAT": "LVA",
-            "MAS": "MYS",
-            "MGL": "MNG",
-            "MON": "MCO",
-            "MRI": "MUS",
-            "NED": "NLD",
-            "NGR": "NGA",
-            "NIG": "NER",
-            "PAR": "PRY",
-            "PHI": "PHL",
-            "POR": "PRT",
-            "RSA": "ZAF",
-            "SAM": "WSM",
-            "SLO": "SVN",
-            "SRI": "LKA",
-            "SUD": "SDN",
-            "SUI": "CHE",
-            "TAN": "TZA",
-            "TGA": "TON",
-            "TOG": "TGO",
-            "TPE": "TWN",
-            "UAE": "ARE",
-            "URU": "URY",
-            "VIE": "VNM",
-            "ZAM": "ZMB",
-            "ZIM": "ZWE"
-        },
         "caveats": [
             "CSV-only processing authorized by user: art medals are retained in source totals. Sports-only compliance is NOT established.",
             "Sport/event/official-status fields are absent: demonstration, unofficial and unawarded medal exclusion cannot be independently checked.",
@@ -156,16 +104,7 @@
     "validation": {
         "status": "passed-with-source-limitations",
         "fullyValidatedSportsOnly": false,
-        "verifiedAgainst": "Supplied CSV only; no independent sports-only verification",
-        "warnings": [
-            "CSV-only processing authorized by user: art medals are retained in source totals. Sports-only compliance is NOT established.",
-            "Sport/event/official-status fields are absent: demonstration, unofficial and unawarded medal exclusion cannot be independently checked.",
-            "One row is a team/edition medal table, not an athlete record. Rows are summed once; event-level team deduplication cannot be independently verified.",
-            "User-approved gameplay rule: countries without eligible CSV medal rows receive zero medals, including nonparticipants; this is not independent verification of participation history.",
-            "UAR is excluded rather than transferred to Egypt; Egypt may have an incomplete continuity total under another convention.",
-            "TPE maps to Taiwan using the CSV team identity; no attribution of other Chinese teams. Historical code changes absent from the CSV cannot be reconstructed.",
-            "Source notes mention Olympedia, but exact publisher, download URL, dataset version and retrieval date are not recorded. No external data used."
-        ]
+        "verifiedAgainst": "Supplied CSV only; no independent sports-only verification"
     },
     "countries": [
         {

@@ -27,6 +27,16 @@
                 "sha256": "901360ab8d2e298c3ec923f9d228e9446e9e17cad6eb869381001fa90b4c101a"
             }
         ],
+        "corrections": {
+            "CAN": {
+                "value": 9984670.0,
+                "year": null,
+                "originalValue": 15634410.0,
+                "originalYear": 2024,
+                "basis": "User-approved Canada area correction; reference year unspecified.",
+                "referenceUrl": "https://cannor.gc.ca/eng/1580328887358/1580328902237"
+            }
+        },
         "supplements": {
             "organization": "User-provided values; not independently verified",
             "notes": "User supplied Kosovo 10,887 km², Taiwan 36,197 km², Vatican 44 ha converted to 0.44 km². Years not supplied.",
@@ -66,7 +76,7 @@
         "matching": "Exact canonical country IDs; no aliases required",
         "missing": "No source row or no observations: value/year/rank null, missing true",
         "caveats": [
-            "Source observations preserved; user-provided supplements and approved range midpoints are separately identified. Unknown supplement years remain null.",
+            "Source values preserved except documented user-approved corrections and supplements; unknown years remain null.",
             "Validation checks the supplied export, not independent verification against the live publisher."
         ]
     },
@@ -321,8 +331,8 @@
         },
         {
             "id": "CAN",
-            "value": 15634410.0,
-            "year": 2024,
+            "value": 9984670.0,
+            "year": null,
             "rank": 2,
             "points": 2,
             "missing": false
@@ -1646,14 +1656,6 @@
             "rank": 61,
             "points": 61,
             "missing": false
-        }
-    ],
-    "qualityIssues": [
-        {
-            "countryId": "CAN",
-            "status": "needs-source-review",
-            "message": "Downloaded Canada surface area is 15634410 km² (2024), whereas a Canadian government reference lists 9,984,670 km². Definitions or source data must be reconciled before treating this as verified gameplay data. Original value preserved.",
-            "referenceUrl": "https://cannor.gc.ca/eng/1580328887358/1580328902237"
         }
     ]
 }

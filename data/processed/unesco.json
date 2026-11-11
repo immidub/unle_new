@@ -5,8 +5,6 @@
         "dataset": "World Heritage properties — supplied whc001.json",
         "url": null,
         "urlNote": "Original export URL not recorded in the local JSON.",
-        "version": null,
-        "retrievalDate": null,
         "files": [
             {
                 "path": "data/source/unesco/whc001.json",
@@ -52,12 +50,10 @@
     "validation": {
         "status": "passed-with-source-limitations",
         "sourceSites": 1273,
-        "attributedSites": 1273,
         "sharedSites": 52,
         "countrySiteLinks": 1380,
         "zeroCountries": 24,
-        "missingCountries": 0,
-        "unattributedSites": []
+        "missingCountries": 0
     },
     "countries": [
         {
