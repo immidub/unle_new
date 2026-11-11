@@ -1,0 +1,198 @@
+id,name,flagCode,flagPath
+AFG,Afghanistan,af,/flags/af.svg
+ALB,Albania,al,/flags/al.svg
+DZA,Algeria,dz,/flags/dz.svg
+AND,Andorra,ad,/flags/ad.svg
+AGO,Angola,ao,/flags/ao.svg
+ATG,Antigua and Barbuda,ag,/flags/ag.svg
+ARG,Argentina,ar,/flags/ar.svg
+ARM,Armenia,am,/flags/am.svg
+AUS,Australia,au,/flags/au.svg
+AUT,Austria,at,/flags/at.svg
+AZE,Azerbaijan,az,/flags/az.svg
+BHS,Bahamas,bs,/flags/bs.svg
+BHR,Bahrain,bh,/flags/bh.svg
+BGD,Bangladesh,bd,/flags/bd.svg
+BRB,Barbados,bb,/flags/bb.svg
+BLR,Belarus,by,/flags/by.svg
+BEL,Belgium,be,/flags/be.svg
+BLZ,Belize,bz,/flags/bz.svg
+BEN,Benin,bj,/flags/bj.svg
+BTN,Bhutan,bt,/flags/bt.svg
+BOL,Bolivia,bo,/flags/bo.svg
+BIH,Bosnia and Herzegovina,ba,/flags/ba.svg
+BWA,Botswana,bw,/flags/bw.svg
+BRA,Brazil,br,/flags/br.svg
+BRN,Brunei,bn,/flags/bn.svg
+BGR,Bulgaria,bg,/flags/bg.svg
+BFA,Burkina Faso,bf,/flags/bf.svg
+BDI,Burundi,bi,/flags/bi.svg
+CPV,Cabo Verde,cv,/flags/cv.svg
+KHM,Cambodia,kh,/flags/kh.svg
+CMR,Cameroon,cm,/flags/cm.svg
+CAN,Canada,ca,/flags/ca.svg
+CAF,Central African Republic,cf,/flags/cf.svg
+TCD,Chad,td,/flags/td.svg
+CHL,Chile,cl,/flags/cl.svg
+CHN,China,cn,/flags/cn.svg
+COL,Colombia,co,/flags/co.svg
+COM,Comoros,km,/flags/km.svg
+COG,Congo,cg,/flags/cg.svg
+CRI,Costa Rica,cr,/flags/cr.svg
+CIV,Côte d'Ivoire,ci,/flags/ci.svg
+HRV,Croatia,hr,/flags/hr.svg
+CUB,Cuba,cu,/flags/cu.svg
+CYP,Cyprus,cy,/flags/cy.svg
+CZE,Czechia,cz,/flags/cz.svg
+COD,Democratic Republic of the Congo,cd,/flags/cd.svg
+DNK,Denmark,dk,/flags/dk.svg
+DJI,Djibouti,dj,/flags/dj.svg
+DMA,Dominica,dm,/flags/dm.svg
+DOM,Dominican Republic,do,/flags/do.svg
+ECU,Ecuador,ec,/flags/ec.svg
+EGY,Egypt,eg,/flags/eg.svg
+SLV,El Salvador,sv,/flags/sv.svg
+GNQ,Equatorial Guinea,gq,/flags/gq.svg
+ERI,Eritrea,er,/flags/er.svg
+EST,Estonia,ee,/flags/ee.svg
+SWZ,Eswatini,sz,/flags/sz.svg
+ETH,Ethiopia,et,/flags/et.svg
+FJI,Fiji,fj,/flags/fj.svg
+FIN,Finland,fi,/flags/fi.svg
+FRA,France,fr,/flags/fr.svg
+GAB,Gabon,ga,/flags/ga.svg
+GMB,Gambia,gm,/flags/gm.svg
+GEO,Georgia,ge,/flags/ge.svg
+DEU,Germany,de,/flags/de.svg
+GHA,Ghana,gh,/flags/gh.svg
+GRC,Greece,gr,/flags/gr.svg
+GRD,Grenada,gd,/flags/gd.svg
+GTM,Guatemala,gt,/flags/gt.svg
+GIN,Guinea,gn,/flags/gn.svg
+GNB,Guinea-Bissau,gw,/flags/gw.svg
+GUY,Guyana,gy,/flags/gy.svg
+HTI,Haiti,ht,/flags/ht.svg
+HND,Honduras,hn,/flags/hn.svg
+HUN,Hungary,hu,/flags/hu.svg
+ISL,Iceland,is,/flags/is.svg
+IND,India,in,/flags/in.svg
+IDN,Indonesia,id,/flags/id.svg
+IRN,Iran,ir,/flags/ir.svg
+IRQ,Iraq,iq,/flags/iq.svg
+IRL,Ireland,ie,/flags/ie.svg
+ISR,Israel,il,/flags/il.svg
+ITA,Italy,it,/flags/it.svg
+JAM,Jamaica,jm,/flags/jm.svg
+JPN,Japan,jp,/flags/jp.svg
+JOR,Jordan,jo,/flags/jo.svg
+KAZ,Kazakhstan,kz,/flags/kz.svg
+KEN,Kenya,ke,/flags/ke.svg
+KIR,Kiribati,ki,/flags/ki.svg
+XKX,Kosovo,xk,/flags/xk.svg
+KWT,Kuwait,kw,/flags/kw.svg
+KGZ,Kyrgyzstan,kg,/flags/kg.svg
+LAO,Laos,la,/flags/la.svg
+LVA,Latvia,lv,/flags/lv.svg
+LBN,Lebanon,lb,/flags/lb.svg
+LSO,Lesotho,ls,/flags/ls.svg
+LBR,Liberia,lr,/flags/lr.svg
+LBY,Libya,ly,/flags/ly.svg
+LIE,Liechtenstein,li,/flags/li.svg
+LTU,Lithuania,lt,/flags/lt.svg
+LUX,Luxembourg,lu,/flags/lu.svg
+MDG,Madagascar,mg,/flags/mg.svg
+MWI,Malawi,mw,/flags/mw.svg
+MYS,Malaysia,my,/flags/my.svg
+MDV,Maldives,mv,/flags/mv.svg
+MLI,Mali,ml,/flags/ml.svg
+MLT,Malta,mt,/flags/mt.svg
+MHL,Marshall Islands,mh,/flags/mh.svg
+MRT,Mauritania,mr,/flags/mr.svg
+MUS,Mauritius,mu,/flags/mu.svg
+MEX,Mexico,mx,/flags/mx.svg
+FSM,Micronesia,fm,/flags/fm.svg
+MDA,Moldova,md,/flags/md.svg
+MCO,Monaco,mc,/flags/mc.svg
+MNG,Mongolia,mn,/flags/mn.svg
+MNE,Montenegro,me,/flags/me.svg
+MAR,Morocco,ma,/flags/ma.svg
+MOZ,Mozambique,mz,/flags/mz.svg
+MMR,Myanmar,mm,/flags/mm.svg
+NAM,Namibia,na,/flags/na.svg
+NRU,Nauru,nr,/flags/nr.svg
+NPL,Nepal,np,/flags/np.svg
+NLD,Netherlands,nl,/flags/nl.svg
+NZL,New Zealand,nz,/flags/nz.svg
+NIC,Nicaragua,ni,/flags/ni.svg
+NER,Niger,ne,/flags/ne.svg
+NGA,Nigeria,ng,/flags/ng.svg
+PRK,North Korea,kp,/flags/kp.svg
+MKD,North Macedonia,mk,/flags/mk.svg
+NOR,Norway,no,/flags/no.svg
+OMN,Oman,om,/flags/om.svg
+PAK,Pakistan,pk,/flags/pk.svg
+PLW,Palau,pw,/flags/pw.svg
+PSE,Palestine,ps,/flags/ps.svg
+PAN,Panama,pa,/flags/pa.svg
+PNG,Papua New Guinea,pg,/flags/pg.svg
+PRY,Paraguay,py,/flags/py.svg
+PER,Peru,pe,/flags/pe.svg
+PHL,Philippines,ph,/flags/ph.svg
+POL,Poland,pl,/flags/pl.svg
+PRT,Portugal,pt,/flags/pt.svg
+QAT,Qatar,qa,/flags/qa.svg
+ROU,Romania,ro,/flags/ro.svg
+RUS,Russia,ru,/flags/ru.svg
+RWA,Rwanda,rw,/flags/rw.svg
+KNA,Saint Kitts and Nevis,kn,/flags/kn.svg
+LCA,Saint Lucia,lc,/flags/lc.svg
+VCT,Saint Vincent and the Grenadines,vc,/flags/vc.svg
+WSM,Samoa,ws,/flags/ws.svg
+SMR,San Marino,sm,/flags/sm.svg
+STP,São Tomé and Príncipe,st,/flags/st.svg
+SAU,Saudi Arabia,sa,/flags/sa.svg
+SEN,Senegal,sn,/flags/sn.svg
+SRB,Serbia,rs,/flags/rs.svg
+SYC,Seychelles,sc,/flags/sc.svg
+SLE,Sierra Leone,sl,/flags/sl.svg
+SGP,Singapore,sg,/flags/sg.svg
+SVK,Slovakia,sk,/flags/sk.svg
+SVN,Slovenia,si,/flags/si.svg
+SLB,Solomon Islands,sb,/flags/sb.svg
+SOM,Somalia,so,/flags/so.svg
+ZAF,South Africa,za,/flags/za.svg
+KOR,South Korea,kr,/flags/kr.svg
+SSD,South Sudan,ss,/flags/ss.svg
+ESP,Spain,es,/flags/es.svg
+LKA,Sri Lanka,lk,/flags/lk.svg
+SDN,Sudan,sd,/flags/sd.svg
+SUR,Suriname,sr,/flags/sr.svg
+SWE,Sweden,se,/flags/se.svg
+CHE,Switzerland,ch,/flags/ch.svg
+SYR,Syria,sy,/flags/sy.svg
+TWN,Taiwan,tw,/flags/tw.svg
+TJK,Tajikistan,tj,/flags/tj.svg
+TZA,Tanzania,tz,/flags/tz.svg
+THA,Thailand,th,/flags/th.svg
+TLS,Timor-Leste,tl,/flags/tl.svg
+TGO,Togo,tg,/flags/tg.svg
+TON,Tonga,to,/flags/to.svg
+TTO,Trinidad and Tobago,tt,/flags/tt.svg
+TUN,Tunisia,tn,/flags/tn.svg
+TUR,Turkey,tr,/flags/tr.svg
+TKM,Turkmenistan,tm,/flags/tm.svg
+TUV,Tuvalu,tv,/flags/tv.svg
+UGA,Uganda,ug,/flags/ug.svg
+UKR,Ukraine,ua,/flags/ua.svg
+ARE,United Arab Emirates,ae,/flags/ae.svg
+GBR,United Kingdom,gb,/flags/gb.svg
+USA,United States,us,/flags/us.svg
+URY,Uruguay,uy,/flags/uy.svg
+UZB,Uzbekistan,uz,/flags/uz.svg
+VUT,Vanuatu,vu,/flags/vu.svg
+VAT,Vatican City,va,/flags/va.svg
+VEN,Venezuela,ve,/flags/ve.svg
+VNM,Vietnam,vn,/flags/vn.svg
+YEM,Yemen,ye,/flags/ye.svg
+ZMB,Zambia,zm,/flags/zm.svg
+ZWE,Zimbabwe,zw,/flags/zw.svg

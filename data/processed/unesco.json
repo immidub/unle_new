@@ -1,0 +1,1640 @@
+{
+    "category": "unesco",
+    "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "dataset": "World Heritage properties — supplied whc001.json",
+        "url": null,
+        "urlNote": "Original export URL not recorded in the local JSON.",
+        "version": null,
+        "retrievalDate": null,
+        "files": [
+            {
+                "path": "data/source/unesco/whc001.json",
+                "sha256": "53a6e8e0accb0c3c7f738e3084698cd4f4d4a8ed28197cc99062104537cb5c84"
+            },
+            {
+                "path": "data/countries-master-list.csv",
+                "sha256": "9146ac937792681f29cf3395517b9fe7adeaa65e1b25f0818c701c00b2fe7a80"
+            }
+        ]
+    },
+    "unit": "World Heritage sites",
+    "reference": {
+        "policy": "All properties in supplied snapshot; year is latest inscription year in file, not retrieval date",
+        "sourceYearRange": [
+            1978,
+            2026
+        ],
+        "latestInscriptionYear": 2026
+    },
+    "methodology": {
+        "higherIsBetter": true,
+        "ranking": "Descending site count; competition ranks (1, 2, 2, 4) within the 197-country pool",
+        "points": "min(rank, 100); missing rank receives 100 points",
+        "matching": "Source iso_codes matched to master flagCode, then canonical ID; states_names retained for exception audit",
+        "counting": "One unique id_no per listed country; shared sites count once for each listed country; serial components are not separate sites",
+        "attributionOverrides": {
+            "148": {
+                "countries": [
+                    "ISR",
+                    "PSE"
+                ],
+                "basis": "User-approved gameplay attribution"
+            }
+        },
+        "missing": "Zero means no attributed entries in supplied snapshot; all 197 countries receive numeric counts and ranks",
+        "caveats": [
+            "Counts describe the supplied list only; no independent live verification or completeness check was performed.",
+            "Country totals may sum above unique property count because shared properties count for each listed country.",
+            "Latest inscription year does not establish export date or dataset version."
+        ]
+    },
+    "validation": {
+        "status": "passed-with-source-limitations",
+        "sourceSites": 1273,
+        "attributedSites": 1273,
+        "sharedSites": 52,
+        "countrySiteLinks": 1380,
+        "zeroCountries": 24,
+        "missingCountries": 0,
+        "unattributedSites": []
+    },
+    "countries": [
+        {
+            "id": "AFG",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "ALB",
+            "value": 4,
+            "year": 2026,
+            "rank": 84,
+            "points": 84,
+            "missing": false
+        },
+        {
+            "id": "DZA",
+            "value": 7,
+            "year": 2026,
+            "rank": 53,
+            "points": 53,
+            "missing": false
+        },
+        {
+            "id": "AND",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "AGO",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "ATG",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "ARG",
+            "value": 12,
+            "year": 2026,
+            "rank": 28,
+            "points": 28,
+            "missing": false
+        },
+        {
+            "id": "ARM",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "AUS",
+            "value": 21,
+            "year": 2026,
+            "rank": 16,
+            "points": 16,
+            "missing": false
+        },
+        {
+            "id": "AUT",
+            "value": 12,
+            "year": 2026,
+            "rank": 28,
+            "points": 28,
+            "missing": false
+        },
+        {
+            "id": "AZE",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "BHS",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "BHR",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "BGD",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "BRB",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "BLR",
+            "value": 4,
+            "year": 2026,
+            "rank": 84,
+            "points": 84,
+            "missing": false
+        },
+        {
+            "id": "BEL",
+            "value": 16,
+            "year": 2026,
+            "rank": 22,
+            "points": 22,
+            "missing": false
+        },
+        {
+            "id": "BLZ",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "BEN",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "BTN",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "BOL",
+            "value": 7,
+            "year": 2026,
+            "rank": 53,
+            "points": 53,
+            "missing": false
+        },
+        {
+            "id": "BIH",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "BWA",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "BRA",
+            "value": 26,
+            "year": 2026,
+            "rank": 13,
+            "points": 13,
+            "missing": false
+        },
+        {
+            "id": "BRN",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "BGR",
+            "value": 10,
+            "year": 2026,
+            "rank": 33,
+            "points": 33,
+            "missing": false
+        },
+        {
+            "id": "BFA",
+            "value": 4,
+            "year": 2026,
+            "rank": 84,
+            "points": 84,
+            "missing": false
+        },
+        {
+            "id": "BDI",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "CPV",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "KHM",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "CMR",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "CAN",
+            "value": 22,
+            "year": 2026,
+            "rank": 14,
+            "points": 14,
+            "missing": false
+        },
+        {
+            "id": "CAF",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "TCD",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "CHL",
+            "value": 7,
+            "year": 2026,
+            "rank": 53,
+            "points": 53,
+            "missing": false
+        },
+        {
+            "id": "CHN",
+            "value": 61,
+            "year": 2026,
+            "rank": 2,
+            "points": 2,
+            "missing": false
+        },
+        {
+            "id": "COL",
+            "value": 9,
+            "year": 2026,
+            "rank": 38,
+            "points": 38,
+            "missing": false
+        },
+        {
+            "id": "COM",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "COG",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "CRI",
+            "value": 4,
+            "year": 2026,
+            "rank": 84,
+            "points": 84,
+            "missing": false
+        },
+        {
+            "id": "CIV",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "HRV",
+            "value": 10,
+            "year": 2026,
+            "rank": 33,
+            "points": 33,
+            "missing": false
+        },
+        {
+            "id": "CUB",
+            "value": 9,
+            "year": 2026,
+            "rank": 38,
+            "points": 38,
+            "missing": false
+        },
+        {
+            "id": "CYP",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "CZE",
+            "value": 17,
+            "year": 2026,
+            "rank": 19,
+            "points": 19,
+            "missing": false
+        },
+        {
+            "id": "COD",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "DNK",
+            "value": 13,
+            "year": 2026,
+            "rank": 24,
+            "points": 24,
+            "missing": false
+        },
+        {
+            "id": "DJI",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "DMA",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "DOM",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "ECU",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "EGY",
+            "value": 7,
+            "year": 2026,
+            "rank": 53,
+            "points": 53,
+            "missing": false
+        },
+        {
+            "id": "SLV",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "GNQ",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "ERI",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "EST",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "SWZ",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "ETH",
+            "value": 12,
+            "year": 2026,
+            "rank": 28,
+            "points": 28,
+            "missing": false
+        },
+        {
+            "id": "FJI",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "FIN",
+            "value": 8,
+            "year": 2026,
+            "rank": 43,
+            "points": 43,
+            "missing": false
+        },
+        {
+            "id": "FRA",
+            "value": 56,
+            "year": 2026,
+            "rank": 3,
+            "points": 3,
+            "missing": false
+        },
+        {
+            "id": "GAB",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "GMB",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "GEO",
+            "value": 4,
+            "year": 2026,
+            "rank": 84,
+            "points": 84,
+            "missing": false
+        },
+        {
+            "id": "DEU",
+            "value": 55,
+            "year": 2026,
+            "rank": 4,
+            "points": 4,
+            "missing": false
+        },
+        {
+            "id": "GHA",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "GRC",
+            "value": 21,
+            "year": 2026,
+            "rank": 16,
+            "points": 16,
+            "missing": false
+        },
+        {
+            "id": "GRD",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "GTM",
+            "value": 4,
+            "year": 2026,
+            "rank": 84,
+            "points": 84,
+            "missing": false
+        },
+        {
+            "id": "GIN",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "GNB",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "GUY",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "HTI",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "HND",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "HUN",
+            "value": 8,
+            "year": 2026,
+            "rank": 43,
+            "points": 43,
+            "missing": false
+        },
+        {
+            "id": "ISL",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "IND",
+            "value": 45,
+            "year": 2026,
+            "rank": 6,
+            "points": 6,
+            "missing": false
+        },
+        {
+            "id": "IDN",
+            "value": 10,
+            "year": 2026,
+            "rank": 33,
+            "points": 33,
+            "missing": false
+        },
+        {
+            "id": "IRN",
+            "value": 30,
+            "year": 2026,
+            "rank": 10,
+            "points": 10,
+            "missing": false
+        },
+        {
+            "id": "IRQ",
+            "value": 6,
+            "year": 2026,
+            "rank": 63,
+            "points": 63,
+            "missing": false
+        },
+        {
+            "id": "IRL",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "ISR",
+            "value": 10,
+            "year": 2026,
+            "rank": 33,
+            "points": 33,
+            "missing": false
+        },
+        {
+            "id": "ITA",
+            "value": 62,
+            "year": 2026,
+            "rank": 1,
+            "points": 1,
+            "missing": false
+        },
+        {
+            "id": "JAM",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "JPN",
+            "value": 27,
+            "year": 2026,
+            "rank": 11,
+            "points": 11,
+            "missing": false
+        },
+        {
+            "id": "JOR",
+            "value": 8,
+            "year": 2026,
+            "rank": 43,
+            "points": 43,
+            "missing": false
+        },
+        {
+            "id": "KAZ",
+            "value": 7,
+            "year": 2026,
+            "rank": 53,
+            "points": 53,
+            "missing": false
+        },
+        {
+            "id": "KEN",
+            "value": 8,
+            "year": 2026,
+            "rank": 43,
+            "points": 43,
+            "missing": false
+        },
+        {
+            "id": "KIR",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "XKX",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "KWT",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "KGZ",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "LAO",
+            "value": 4,
+            "year": 2026,
+            "rank": 84,
+            "points": 84,
+            "missing": false
+        },
+        {
+            "id": "LVA",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "LBN",
+            "value": 7,
+            "year": 2026,
+            "rank": 53,
+            "points": 53,
+            "missing": false
+        },
+        {
+            "id": "LSO",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "LBR",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "LBY",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "LIE",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "LTU",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "LUX",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "MDG",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "MWI",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "MYS",
+            "value": 6,
+            "year": 2026,
+            "rank": 63,
+            "points": 63,
+            "missing": false
+        },
+        {
+            "id": "MDV",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "MLI",
+            "value": 4,
+            "year": 2026,
+            "rank": 84,
+            "points": 84,
+            "missing": false
+        },
+        {
+            "id": "MLT",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "MHL",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "MRT",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "MUS",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "MEX",
+            "value": 36,
+            "year": 2026,
+            "rank": 7,
+            "points": 7,
+            "missing": false
+        },
+        {
+            "id": "FSM",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "MDA",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "MCO",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "MNG",
+            "value": 7,
+            "year": 2026,
+            "rank": 53,
+            "points": 53,
+            "missing": false
+        },
+        {
+            "id": "MNE",
+            "value": 4,
+            "year": 2026,
+            "rank": 84,
+            "points": 84,
+            "missing": false
+        },
+        {
+            "id": "MAR",
+            "value": 9,
+            "year": 2026,
+            "rank": 38,
+            "points": 38,
+            "missing": false
+        },
+        {
+            "id": "MOZ",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "MMR",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "NAM",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "NRU",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "NPL",
+            "value": 4,
+            "year": 2026,
+            "rank": 84,
+            "points": 84,
+            "missing": false
+        },
+        {
+            "id": "NLD",
+            "value": 13,
+            "year": 2026,
+            "rank": 24,
+            "points": 24,
+            "missing": false
+        },
+        {
+            "id": "NZL",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "NIC",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "NER",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "NGA",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "PRK",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "MKD",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "NOR",
+            "value": 8,
+            "year": 2026,
+            "rank": 43,
+            "points": 43,
+            "missing": false
+        },
+        {
+            "id": "OMN",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "PAK",
+            "value": 6,
+            "year": 2026,
+            "rank": 63,
+            "points": 63,
+            "missing": false
+        },
+        {
+            "id": "PLW",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "PSE",
+            "value": 7,
+            "year": 2026,
+            "rank": 53,
+            "points": 53,
+            "missing": false
+        },
+        {
+            "id": "PAN",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "PNG",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "PRY",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "PER",
+            "value": 13,
+            "year": 2026,
+            "rank": 24,
+            "points": 24,
+            "missing": false
+        },
+        {
+            "id": "PHL",
+            "value": 6,
+            "year": 2026,
+            "rank": 63,
+            "points": 63,
+            "missing": false
+        },
+        {
+            "id": "POL",
+            "value": 18,
+            "year": 2026,
+            "rank": 18,
+            "points": 18,
+            "missing": false
+        },
+        {
+            "id": "PRT",
+            "value": 17,
+            "year": 2026,
+            "rank": 19,
+            "points": 19,
+            "missing": false
+        },
+        {
+            "id": "QAT",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "ROU",
+            "value": 11,
+            "year": 2026,
+            "rank": 32,
+            "points": 32,
+            "missing": false
+        },
+        {
+            "id": "RUS",
+            "value": 33,
+            "year": 2026,
+            "rank": 9,
+            "points": 9,
+            "missing": false
+        },
+        {
+            "id": "RWA",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "KNA",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "LCA",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "VCT",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "WSM",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "SMR",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "STP",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "SAU",
+            "value": 8,
+            "year": 2026,
+            "rank": 43,
+            "points": 43,
+            "missing": false
+        },
+        {
+            "id": "SEN",
+            "value": 7,
+            "year": 2026,
+            "rank": 53,
+            "points": 53,
+            "missing": false
+        },
+        {
+            "id": "SRB",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "SYC",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "SLE",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "SGP",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "SVK",
+            "value": 8,
+            "year": 2026,
+            "rank": 43,
+            "points": 43,
+            "missing": false
+        },
+        {
+            "id": "SVN",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "SLB",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "SOM",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "ZAF",
+            "value": 12,
+            "year": 2026,
+            "rank": 28,
+            "points": 28,
+            "missing": false
+        },
+        {
+            "id": "KOR",
+            "value": 17,
+            "year": 2026,
+            "rank": 19,
+            "points": 19,
+            "missing": false
+        },
+        {
+            "id": "SSD",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "ESP",
+            "value": 50,
+            "year": 2026,
+            "rank": 5,
+            "points": 5,
+            "missing": false
+        },
+        {
+            "id": "LKA",
+            "value": 8,
+            "year": 2026,
+            "rank": 43,
+            "points": 43,
+            "missing": false
+        },
+        {
+            "id": "SDN",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "SUR",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "SWE",
+            "value": 15,
+            "year": 2026,
+            "rank": 23,
+            "points": 23,
+            "missing": false
+        },
+        {
+            "id": "CHE",
+            "value": 13,
+            "year": 2026,
+            "rank": 24,
+            "points": 24,
+            "missing": false
+        },
+        {
+            "id": "SYR",
+            "value": 6,
+            "year": 2026,
+            "rank": 63,
+            "points": 63,
+            "missing": false
+        },
+        {
+            "id": "TWN",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "TJK",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "TZA",
+            "value": 7,
+            "year": 2026,
+            "rank": 53,
+            "points": 53,
+            "missing": false
+        },
+        {
+            "id": "THA",
+            "value": 9,
+            "year": 2026,
+            "rank": 38,
+            "points": 38,
+            "missing": false
+        },
+        {
+            "id": "TLS",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "TGO",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "TON",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "TTO",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "TUN",
+            "value": 10,
+            "year": 2026,
+            "rank": 33,
+            "points": 33,
+            "missing": false
+        },
+        {
+            "id": "TUR",
+            "value": 22,
+            "year": 2026,
+            "rank": 14,
+            "points": 14,
+            "missing": false
+        },
+        {
+            "id": "TKM",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "TUV",
+            "value": 0,
+            "year": 2026,
+            "rank": 174,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "UGA",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "UKR",
+            "value": 8,
+            "year": 2026,
+            "rank": 43,
+            "points": 43,
+            "missing": false
+        },
+        {
+            "id": "ARE",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "GBR",
+            "value": 35,
+            "year": 2026,
+            "rank": 8,
+            "points": 8,
+            "missing": false
+        },
+        {
+            "id": "USA",
+            "value": 27,
+            "year": 2026,
+            "rank": 11,
+            "points": 11,
+            "missing": false
+        },
+        {
+            "id": "URY",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "UZB",
+            "value": 8,
+            "year": 2026,
+            "rank": 43,
+            "points": 43,
+            "missing": false
+        },
+        {
+            "id": "VUT",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "VAT",
+            "value": 2,
+            "year": 2026,
+            "rank": 115,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "VEN",
+            "value": 3,
+            "year": 2026,
+            "rank": 94,
+            "points": 94,
+            "missing": false
+        },
+        {
+            "id": "VNM",
+            "value": 9,
+            "year": 2026,
+            "rank": 38,
+            "points": 38,
+            "missing": false
+        },
+        {
+            "id": "YEM",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        },
+        {
+            "id": "ZMB",
+            "value": 1,
+            "year": 2026,
+            "rank": 138,
+            "points": 100,
+            "missing": false
+        },
+        {
+            "id": "ZWE",
+            "value": 5,
+            "year": 2026,
+            "rank": 68,
+            "points": 68,
+            "missing": false
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+# Existing project exclusions
+data/reports/
+data/source/
+scripts/
+
+# macOS and Windows filesystem metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Python bytecode, caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.venv/
+venv/
+env/
+.Python
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+
+# Dependencies, generated builds and tool caches
+node_modules/
+dist/
+build/
+.cache/
+.next/
+.nuxt/
+.parcel-cache/
+.turbo/
+coverage/
+*.tsbuildinfo
+
+# Local credentials and environment variables (keep sample configuration)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.aws/
+
+# Editor temporary files and logs
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+*.log
+.ipynb_checkpoints/
